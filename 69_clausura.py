@@ -20,7 +20,7 @@ def puntos_aleatorios(L, N, delta):
     return bw
 
 bw = puntos_aleatorios(400, 80,10).astype('uint8')
-kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(25,25))
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(35,35))
 
 cv2.imshow('Original',bw)
 cv2.waitKey(0)
