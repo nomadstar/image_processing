@@ -44,3 +44,4 @@ out = cv2.normalize(abs(S), None, 0.0, 1.0, cv2.NORM_MINMAX)
 
 plt.imshow(out,cmap="gray")
 plt.show()
+

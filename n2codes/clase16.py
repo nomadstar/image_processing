@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 A = cv2.imread('imagenes/cars.jpg',0)
 
-B = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+B = cv2.getStructuringElement(cv2.MORPH_RECT, (24, 24))
 print(B)
 
 
