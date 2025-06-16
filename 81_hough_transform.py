@@ -24,7 +24,7 @@ fig = plt.figure()
 plt.imshow(I, cmap='gray')
 eje_x = np.array((0, BW.shape[1]))
 
-valores_maximos= hough_line_peaks(h, theta, d, threshold=50)
+valores_maximos= hough_line_peaks(h, theta, d, threshold=40)
 
 
 for accum, theta, rho in zip(*valores_maximos):  #el * separa un arreglo
